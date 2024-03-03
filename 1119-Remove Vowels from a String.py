@@ -7,8 +7,10 @@ Original file is located at
     https://colab.research.google.com/drive/1Pci6soGODDDJpFtkxbpGQscjDxHuvwUV
 
 1119	Remove Vowels from a String
-"""
 
+Description : Given a string S, remove the vowels ‘a’, ‘e’, ‘i’, ‘o’, and ‘u’ from it, and return the new string.
+"""
+Method 1:
 a = "leetcodeisacommunityforcoders"
 vowels = ['a', 'e', 'i', 'o', 'u']
 ans = ""
@@ -18,7 +20,7 @@ for i in range(len(a)):
     ans += a[i]
 
 ans
-
+Method 2:
 ans2 = ''
 
 for i in a:
